@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MusicTools by senote</title><link>https://musictools.senote.com/en/</link><description>Recent content on MusicTools by senote</description><generator>Hugo</generator><language>en</language><atom:link href="https://musictools.senote.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Bass Fretboard Viewer</title><link>https://musictools.senote.com/en/bass/fretboard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://musictools.senote.com/en/bass/fretboard/</guid><description/></item><item><title>Guitar Fretboard Viewer</title><link>https://musictools.senote.com/en/guitar/fretboard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://musictools.senote.com/en/guitar/fretboard/</guid><description/></item><item><title>Ukulele Chord Chart | All Positions on the Fretboard</title><link>https://musictools.senote.com/en/ukulele/fretboard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://musictools.senote.com/en/ukulele/fretboard/</guid><description>&lt;main class="app"&gt;
+ &lt;div class="app-body"&gt;
+ &lt;section class="helper-panel selection-panel"&gt;
+ &lt;div class="helper-group"&gt;
+ &lt;div class="helper-label"&gt;Notes&lt;/div&gt;
+ &lt;div class="helper-buttons notes" id="note-buttons"&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="helper-group"&gt;
+ &lt;div class="helper-label"&gt;Chord type&lt;/div&gt;
+ &lt;div class="helper-buttons" id="suffix-buttons"&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/section&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;section class=&amp;quot;selection-summary&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;current-chord&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;current-chord-label&amp;quot;&amp;gt;Selected chord&amp;lt;/div&amp;gt;
+ &amp;lt;div class=&amp;quot;current-chord-value&amp;quot; id=&amp;quot;current-chord-display&amp;quot;&amp;gt;—&amp;lt;/div&amp;gt;
+ &amp;lt;/div&amp;gt;
+ &amp;lt;div class=&amp;quot;status&amp;quot; id=&amp;quot;status&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/section&amp;gt;
+
+&amp;lt;section class=&amp;quot;board-wrapper&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;fret-numbers&amp;quot; id=&amp;quot;fret-numbers&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+ &amp;lt;div id=&amp;quot;fretboard&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/section&amp;gt;
+
+&amp;lt;section class=&amp;quot;helper-panel display-panel&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;helper-group&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;helper-label&amp;quot;&amp;gt;Display&amp;lt;/div&amp;gt;
+ &amp;lt;div class=&amp;quot;helper-buttons&amp;quot; id=&amp;quot;display-modes&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/section&amp;gt;
+
+&amp;lt;section class=&amp;quot;snapshot-panel&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;snapshot-actions&amp;quot;&amp;gt;
+ &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;snapshot-button&amp;quot; id=&amp;quot;snapshot-button&amp;quot;&amp;gt;Snapshot&amp;lt;/button&amp;gt;
+ &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;snapshot-button ghost&amp;quot; id=&amp;quot;snapshot-pop-button&amp;quot;&amp;gt;Remove one&amp;lt;/button&amp;gt;
+ &amp;lt;/div&amp;gt;
+ &amp;lt;div class=&amp;quot;snapshot-list&amp;quot; id=&amp;quot;snapshot-list&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/section&amp;gt;
+&amp;lt;footer&amp;gt;&amp;lt;/footer&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+ &lt;/div&gt;
+&lt;/main&gt;</description></item><item><title>About</title><link>https://musictools.senote.com/en/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://musictools.senote.com/en/about/</guid><description>&lt;p&gt;&lt;strong&gt;MusicTools by senote&lt;/strong&gt; is a collection of simple browser-based tools for ukulele, bass, and guitar. The goal is to help you verify things quickly with minimal steps.&lt;/p&gt;</description></item><item><title>Contact</title><link>https://musictools.senote.com/en/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://musictools.senote.com/en/contact/</guid><description>&lt;p&gt;For feedback, requests, or bug reports, please use the form below.&lt;br&gt;
+If you need a reply, include a valid email address.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;English form: &lt;a href="https://senote.com/contact_form_en.php"&gt;https://senote.com/contact_form_en.php&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;日本語フォーム: &lt;a href="https://senote.com/contact_form_ja.php"&gt;https://senote.com/contact_form_ja.php&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Privacy Policy</title><link>https://musictools.senote.com/en/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://musictools.senote.com/en/privacy/</guid><description>&lt;p&gt;This site may use third-party advertising services (Google AdSense). Ad providers may use cookies to serve ads based on user interests.&lt;/p&gt;&lt;p&gt;If analytics (e.g., Google Analytics) are enabled, traffic data may be collected via cookies. Collected data is anonymous and does not identify individuals.&lt;/p&gt;&lt;p&gt;Please expand this policy to match your actual operations.&lt;/p&gt;</description></item><item><title>Terms</title><link>https://musictools.senote.com/en/terms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://musictools.senote.com/en/terms/</guid><description>&lt;p&gt;The information on this site is provided without warranty. Use the tools at your own risk.&lt;/p&gt;&lt;p&gt;Content may change or be discontinued without notice.&lt;/p&gt;</description></item></channel></rss>

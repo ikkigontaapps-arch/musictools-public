@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ウクレレ用ツール on MusicTools by senote</title><link>https://musictools.senote.com/ja/ukulele/</link><description>Recent content in ウクレレ用ツール on MusicTools by senote</description><generator>Hugo</generator><language>ja</language><atom:link href="https://musictools.senote.com/ja/ukulele/index.xml" rel="self" type="application/rss+xml"/><item><title>ウクレレ コード表　全ポジション一覧表示</title><link>https://musictools.senote.com/ja/ukulele/fretboard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://musictools.senote.com/ja/ukulele/fretboard/</guid><description>&lt;main class="app"&gt;
+ &lt;div class="app-body"&gt;
+ &lt;section class="helper-panel selection-panel"&gt;
+ &lt;div class="helper-group"&gt;
+ &lt;div class="helper-label"&gt;音名&lt;/div&gt;
+ &lt;div class="helper-buttons notes" id="note-buttons"&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="helper-group"&gt;
+ &lt;div class="helper-label"&gt;コードタイプ&lt;/div&gt;
+ &lt;div class="helper-buttons" id="suffix-buttons"&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/section&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;section class=&amp;quot;selection-summary&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;current-chord&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;current-chord-label&amp;quot;&amp;gt;選択中のコード&amp;lt;/div&amp;gt;
+ &amp;lt;div class=&amp;quot;current-chord-value&amp;quot; id=&amp;quot;current-chord-display&amp;quot;&amp;gt;—&amp;lt;/div&amp;gt;
+ &amp;lt;/div&amp;gt;
+ &amp;lt;div class=&amp;quot;status&amp;quot; id=&amp;quot;status&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/section&amp;gt;
+
+&amp;lt;section class=&amp;quot;board-wrapper&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;fret-numbers&amp;quot; id=&amp;quot;fret-numbers&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+ &amp;lt;div id=&amp;quot;fretboard&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/section&amp;gt;
+
+&amp;lt;section class=&amp;quot;helper-panel display-panel&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;helper-group&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;helper-label&amp;quot;&amp;gt;表示&amp;lt;/div&amp;gt;
+ &amp;lt;div class=&amp;quot;helper-buttons&amp;quot; id=&amp;quot;display-modes&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/section&amp;gt;
+
+&amp;lt;section class=&amp;quot;snapshot-panel&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;snapshot-actions&amp;quot;&amp;gt;
+ &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;snapshot-button&amp;quot; id=&amp;quot;snapshot-button&amp;quot;&amp;gt;スナップショット&amp;lt;/button&amp;gt;
+ &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;snapshot-button ghost&amp;quot; id=&amp;quot;snapshot-pop-button&amp;quot;&amp;gt;ひとつ消す&amp;lt;/button&amp;gt;
+ &amp;lt;/div&amp;gt;
+ &amp;lt;div class=&amp;quot;snapshot-list&amp;quot; id=&amp;quot;snapshot-list&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/section&amp;gt;
+&amp;lt;footer&amp;gt;&amp;lt;/footer&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+ &lt;/div&gt;
+&lt;/main&gt;</description></item></channel></rss>

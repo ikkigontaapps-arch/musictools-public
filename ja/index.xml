@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MusicTools by senote</title><link>https://musictools.senote.com/ja/</link><description>Recent content on MusicTools by senote</description><generator>Hugo</generator><language>ja</language><atom:link href="https://musictools.senote.com/ja/index.xml" rel="self" type="application/rss+xml"/><item><title>ウクレレ コード表　全ポジション一覧表示</title><link>https://musictools.senote.com/ja/ukulele/fretboard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://musictools.senote.com/ja/ukulele/fretboard/</guid><description>&lt;main class="app"&gt;
+ &lt;div class="app-body"&gt;
+ &lt;section class="helper-panel selection-panel"&gt;
+ &lt;div class="helper-group"&gt;
+ &lt;div class="helper-label"&gt;音名&lt;/div&gt;
+ &lt;div class="helper-buttons notes" id="note-buttons"&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="helper-group"&gt;
+ &lt;div class="helper-label"&gt;コードタイプ&lt;/div&gt;
+ &lt;div class="helper-buttons" id="suffix-buttons"&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/section&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;section class=&amp;quot;selection-summary&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;current-chord&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;current-chord-label&amp;quot;&amp;gt;選択中のコード&amp;lt;/div&amp;gt;
+ &amp;lt;div class=&amp;quot;current-chord-value&amp;quot; id=&amp;quot;current-chord-display&amp;quot;&amp;gt;—&amp;lt;/div&amp;gt;
+ &amp;lt;/div&amp;gt;
+ &amp;lt;div class=&amp;quot;status&amp;quot; id=&amp;quot;status&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/section&amp;gt;
+
+&amp;lt;section class=&amp;quot;board-wrapper&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;fret-numbers&amp;quot; id=&amp;quot;fret-numbers&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+ &amp;lt;div id=&amp;quot;fretboard&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/section&amp;gt;
+
+&amp;lt;section class=&amp;quot;helper-panel display-panel&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;helper-group&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;helper-label&amp;quot;&amp;gt;表示&amp;lt;/div&amp;gt;
+ &amp;lt;div class=&amp;quot;helper-buttons&amp;quot; id=&amp;quot;display-modes&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/section&amp;gt;
+
+&amp;lt;section class=&amp;quot;snapshot-panel&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;snapshot-actions&amp;quot;&amp;gt;
+ &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;snapshot-button&amp;quot; id=&amp;quot;snapshot-button&amp;quot;&amp;gt;スナップショット&amp;lt;/button&amp;gt;
+ &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;snapshot-button ghost&amp;quot; id=&amp;quot;snapshot-pop-button&amp;quot;&amp;gt;ひとつ消す&amp;lt;/button&amp;gt;
+ &amp;lt;/div&amp;gt;
+ &amp;lt;div class=&amp;quot;snapshot-list&amp;quot; id=&amp;quot;snapshot-list&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/section&amp;gt;
+&amp;lt;footer&amp;gt;&amp;lt;/footer&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+ &lt;/div&gt;
+&lt;/main&gt;</description></item><item><title>お問い合わせ</title><link>https://musictools.senote.com/ja/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://musictools.senote.com/ja/contact/</guid><description>&lt;p&gt;ご意見・ご要望・不具合報告などは、下記フォームからお送りください。&lt;br&gt;
+返信が必要な場合は正しいメールアドレスをご記入ください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;日本語フォーム: &lt;a href="https://senote.com/contact_form_ja.php"&gt;https://senote.com/contact_form_ja.php&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;English form: &lt;a href="https://senote.com/contact_form_en.php"&gt;https://senote.com/contact_form_en.php&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>このサイトについて</title><link>https://musictools.senote.com/ja/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://musictools.senote.com/ja/about/</guid><description>&lt;p&gt;&lt;strong&gt;MusicTools by senote&lt;/strong&gt; は、ウクレレ・ベース・ギター向けのシンプルな音楽ツール集です。練習や作曲の「確認したい」を、できるだけ少ない操作で済ませることを目指しています。&lt;/p&gt;</description></item><item><title>プライバシーポリシー</title><link>https://musictools.senote.com/ja/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://musictools.senote.com/ja/privacy/</guid><description>&lt;p&gt;本サイトでは、第三者配信の広告サービス（Google AdSense）を利用する予定です。広告配信事業者は、ユーザーの興味に応じた広告を表示するため Cookie を使用することがあります。&lt;/p&gt;&lt;p&gt;アクセス解析（例：Google Analytics）を利用する場合は、Cookie 等を用いてトラフィックデータを収集することがあります。収集されるデータは匿名であり、個人を特定するものではありません。&lt;/p&gt;</description></item><item><title>利用規約</title><link>https://musictools.senote.com/ja/terms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://musictools.senote.com/ja/terms/</guid><description>&lt;p&gt;本サイトの情報は、正確性・完全性を保証するものではありません。ツールの利用は自己責任でお願いいたします。&lt;/p&gt;&lt;p&gt;本サイトの内容は予告なく変更・停止する場合があります。&lt;/p&gt;</description></item></channel></rss>
