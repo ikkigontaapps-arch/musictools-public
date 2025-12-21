@@ -1,7 +1,8 @@
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
   font-family: "Segoe UI", "Helvetica Neue", system-ui, -apple-system,
     BlinkMacSystemFont, sans-serif;
+  --accent: #22c55e;
   --string-label-width: clamp(32px, calc(3vw + 12px), 60px);
   --fret-min-width: clamp(11px, calc(2.1vw + 5px), 38px);
 }
@@ -50,6 +51,10 @@ button:hover {
   flex-direction: column;
   gap: 12px;
   margin-bottom: 1.25rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 12px;
 }
 
 .helper-group {
@@ -77,37 +82,37 @@ button:hover {
 }
 
 .helper-button {
-  background: #e5e7eb;
-  color: #111827;
-  border-radius: 6px;
-  padding: 4px 8px;
-  font-size: 0.82rem;
-  border: none;
+  background: #e2e8f0;
+  color: #0f172a;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 0.85rem;
+  border: 1px solid transparent;
   cursor: pointer;
-  transition: background 0.15s ease, color 0.15s ease;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
 }
 
 .helper-button:hover {
-  background: #d1d5db;
+  background: #cbd5e1;
 }
 
 .helper-button.selected {
-  background: #2563eb;
+  background: var(--accent);
   color: #fff;
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-color: var(--accent);
 }
 
 .helper-button.selected:hover {
-  background: #1d4ed8;
+  background: #16a34a;
 }
 
 .helper-button.primary {
-  background: #f87171;
+  background: #22c55e;
   color: #fff;
 }
 
 .helper-button.primary:hover {
-  background: #ef4444;
+  background: #16a34a;
 }
 
 .helper-buttons.notes {
@@ -143,7 +148,7 @@ button:hover {
 
 .status {
   font-size: 0.95rem;
-  color: #111827;
+  color: #0f172a;
   margin: 4px 0 0;
 }
 
@@ -165,13 +170,13 @@ button:hover {
   gap: 12px;
   padding: 10px 14px;
   border-radius: 14px;
-  background: #eef2ff;
+  background: #ecfdf3;
 }
 
 .current-chord-label {
   font-size: 0.85rem;
   font-weight: 600;
-  color: #4b5563;
+  color: #14532d;
 }
 
 .current-chord-value {
@@ -182,7 +187,7 @@ button:hover {
 }
 
 .snapshot-button {
-  background: #10b981;
+  background: var(--accent);
   color: #fff;
   border-radius: 10px;
   padding: 8px 14px;
@@ -190,12 +195,12 @@ button:hover {
 }
 
 .snapshot-button:hover {
-  background: #0d966c;
+  background: #16a34a;
 }
 
 .snapshot-button.ghost {
-  background: #e5e7eb;
-  color: #111827;
+  background: #e2e8f0;
+  color: #0f172a;
 }
 
 .snapshot-button.ghost:hover {
@@ -217,7 +222,7 @@ button:hover {
   gap: 6px;
   padding: 6px 12px;
   border-radius: 999px;
-  border: 1px solid #cfd8ea;
+  border: 1px solid #cbd5e1;
   font-size: 0.85rem;
   background: #fff;
 }
@@ -229,7 +234,7 @@ button:hover {
 .board-wrapper {
   background: #fff;
   border-radius: 16px;
-  box-shadow: 0 10px 50px rgba(15, 23, 42, 0.1);
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08);
   padding: 12px 12px 18px;
   overflow-x: auto;
   width: auto;
@@ -380,7 +385,7 @@ button:hover {
 }
 
 .fret.active.root-emphasis .fret-overlay::before {
-  background: #b91c1c;
+  background: var(--accent);
 }
 
 .fret.active.root-emphasis .fret-label {
@@ -464,7 +469,7 @@ button:hover {
 }
 
 .snapshot-board .fret.active.root-emphasis .fret-overlay::before {
-  background: rgba(185, 28, 28, 0.85);
+  background: rgba(34, 197, 94, 0.85);
 }
 
 .snapshot-board .fret-label {

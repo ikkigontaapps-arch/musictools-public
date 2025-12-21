@@ -72,6 +72,7 @@ const strings = [
 ];
 
 const totalFrets = 19;
+const fretRange = { start: 0, end: totalFrets };
 
 const noteLayout = [
   { natural: "C", accidentals: ["C#", "Db"] },
@@ -279,16 +280,25 @@ function canonicalizeNoteForButton(note) {
 }
 
 function initBoard() {
-  createBoard(fretboard, fretNumbers);
+  createBoard(fretboard, fretNumbers, fretRange);
 }
 
-function createBoard(boardEl, fretNumbersEl) {
+function createBoard(
+  boardEl,
+  fretNumbersEl,
+  range = { start: 0, end: totalFrets }
+) {
   if (!boardEl || !fretNumbersEl) return;
+  const start = Math.max(0, range.start ?? 0);
+  const end = Math.min(totalFrets, range.end ?? totalFrets);
+  const frets = Array.from({ length: end - start + 1 }, (_, i) => start + i);
   fretNumbersEl.innerHTML =
     '<div class="string-label"></div>' +
-    Array.from({ length: totalFrets + 1 }, (_, fret) => {
-      return `<div class="fret-number" data-fret="${fret}">${fret}</div>`;
-    }).join("");
+    frets
+      .map(
+        (fret) => `<div class="fret-number" data-fret="${fret}">${fret}</div>`
+      )
+      .join("");
 
   boardEl.innerHTML = "";
   strings.forEach((string) => {
@@ -300,7 +310,7 @@ function createBoard(boardEl, fretNumbersEl) {
     label.textContent = string.label;
     row.appendChild(label);
 
-    for (let fret = 0; fret <= totalFrets; fret += 1) {
+    frets.forEach((fret) => {
       const cell = document.createElement("div");
       cell.className = "fret";
       cell.dataset.string = string.label;
@@ -314,7 +324,7 @@ function createBoard(boardEl, fretNumbersEl) {
       cell._labelElement = labelEl;
       cell.appendChild(overlay);
       row.appendChild(cell);
-    }
+    });
 
     boardEl.appendChild(row);
   });
@@ -688,7 +698,7 @@ function renderSnapshots() {
     boardWrapper.appendChild(numbersEl);
     boardWrapper.appendChild(boardEl);
 
-    createBoard(boardEl, numbersEl);
+    createBoard(boardEl, numbersEl, fretRange);
     highlightBoard(boardEl, snapshot.chord, {
       displayMode,
       preference: snapshot.preference,
