@@ -122,18 +122,61 @@ const enharmonicDisplay = {
   },
 };
 
-const displayModes = [
-  { value: "dots", label: "●だけ表示" },
-  { value: "degrees", label: "度数を表示" },
-  { value: "note-names", label: "全ての音名を表示" },
-];
+const pageLang = (() => {
+  const lang = (document.documentElement.getAttribute("lang") || "")
+    .trim()
+    .toLowerCase();
+  return lang.startsWith("ja") ? "ja" : "en";
+})();
 
-const scaleLabels = {
-  major: "メジャー",
-  naturalMinor: "ナチュラルマイナー",
-  harmonicMinor: "ハーモニックマイナー",
-  melodicMinor: "メロディックマイナー",
+const uiText = {
+  ja: {
+    displayModes: [
+      { value: "dots", label: "●だけ表示" },
+      { value: "degrees", label: "度数を表示" },
+      { value: "note-names", label: "全ての音名を表示" },
+    ],
+    scaleLabels: {
+      major: "メジャー",
+      naturalMinor: "ナチュラルマイナー",
+      harmonicMinor: "ハーモニックマイナー",
+      melodicMinor: "メロディックマイナー",
+    },
+    chordKinds: {
+      triad: "トライアド（3和音）",
+      seventh: "7th（4和音）",
+    },
+    status: {
+      fret: "フレット",
+      separator: " / ",
+    },
+  },
+  en: {
+    displayModes: [
+      { value: "dots", label: "Dots only" },
+      { value: "degrees", label: "Degrees" },
+      { value: "note-names", label: "All note names" },
+    ],
+    scaleLabels: {
+      major: "Major",
+      naturalMinor: "Natural minor",
+      harmonicMinor: "Harmonic minor",
+      melodicMinor: "Melodic minor",
+    },
+    chordKinds: {
+      triad: "Triads (3 notes)",
+      seventh: "7th chords (4 notes)",
+    },
+    status: {
+      fret: "Frets",
+      separator: " / ",
+    },
+  },
 };
+
+function text(key) {
+  return uiText[pageLang]?.[key] ?? uiText.en[key];
+}
 
 const strings = [
   { label: "A", open: "A" },
@@ -335,7 +378,8 @@ function renderKeyButtons() {
 }
 
 function renderDisplayModes() {
-  displayModeContainer.innerHTML = displayModes
+  const modes = text("displayModes");
+  displayModeContainer.innerHTML = modes
     .map(({ value, label }) => {
       const id = `display-${value}`;
       const checked = value === displayMode ? "checked" : "";
@@ -425,15 +469,19 @@ function diatonicChords() {
 }
 
 function renderStatus() {
-  const scaleLabel = scaleLabels[scaleType] || scaleLabels.major;
+  const labels = text("scaleLabels");
+  const scaleLabel = labels[scaleType] || labels.major;
   const chordLabel =
-    chordKind === "triad" ? "トライアド（3和音）" : "7th（4和音）";
+    (text("chordKinds") || uiText.en.chordKinds)[
+      chordKind === "seventh" ? "seventh" : "triad"
+    ];
+  const status = text("status") || uiText.en.status;
   statusEl.textContent = `${formatNote(
     selectedKey,
     accidentalPreference
-  )} ${scaleLabel} / ${chordLabel} / フレット ${fretRange.start}–${
-    fretRange.end
-  }`;
+  )} ${scaleLabel}${status.separator}${chordLabel}${status.separator}${
+    status.fret
+  } ${fretRange.start}–${fretRange.end}`;
 }
 
 function renderList() {
